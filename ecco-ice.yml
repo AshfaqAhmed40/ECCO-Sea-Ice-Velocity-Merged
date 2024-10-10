@@ -1,0 +1,24 @@
+name: ecco-ice
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cartopy
+  - cdsapi
+  - esmpy
+  - xesmf
+  - xgcm
+  - xmitgcm
+  - pyresample
+  - jupyter
+  - metpy
+  - netcdf4
+  - numpy
+  - pandas=1.5.3
+  - proplot=0.9.7
+  - python=3.9.13
+  - pyproj
+  - geos
+  - scipy
+  - xarray
+prefix: /opt/miniconda3/envs/ecco-ice
